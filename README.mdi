@@ -1,0 +1,45 @@
+# AI Resume Screening & Candidate Ranking System
+
+## Overview
+This project is an **offline AI-powered resume screening system** built with **Streamlit**. It allows recruiters to:
+
+- Upload multiple resumes (PDF format)
+- Enter a job description
+- Rank candidates automatically using **TF-IDF + Cosine Similarity**
+- View results as **percentage match** with the job description
+- Highlight the **top candidate**
+- Analyze results with visualizations
+
+All pages feature a **neon/glass UI** with a **custom background image**, and the system includes a **login/register functionality** for secure access.
+
+---
+
+## Features
+
+1. **Login/Register Page**  
+   - Simple CSV-based authentication  
+   - Separate tabs for login and registration  
+
+2. **Resume Ranking Page**  
+   - Upload multiple PDF resumes  
+   - Enter job description text  
+   - View ranked results as **percentage scores**  
+   - Top candidate highlighted in **green**  
+
+3. **Analytics Page**  
+   - Visualize candidate scores using **bar charts**  
+   - Upload CSV of ranking results for analysis  
+
+4. **UI Features**  
+   - Neon/glass-style headers and buttons  
+   - Full-page **background image**  
+   - Interactive and responsive layout  
+
+5. **Offline TF-IDF Ranking**  
+   - No need to download large Hugging Face models  
+   - Fully offline; fast and lightweight  
+
+---
+
+
+
